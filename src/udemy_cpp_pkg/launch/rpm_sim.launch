@@ -1,0 +1,10 @@
+<launch>
+  <param name="wheel_radius" value="0.125" type="double"/>
+  <!-- <rosparam>
+    wheel_radius: 0.125
+  </rosparam> -->
+
+  <node name="rpm_pub_node" pkg="udemy_cpp_pkg" type="rpm_publisher" output="screen"/>
+
+  <node name="speed_calc_node" pkg="udemy_cpp_pkg" type="speed_calculator" output="screen"/>
+</launch>

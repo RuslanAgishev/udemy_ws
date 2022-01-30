@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# ROS
+devel/
+build/
+logs/
+.catkin_tools/
